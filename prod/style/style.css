@@ -1,0 +1,11 @@
+.header {
+  height: 170px;
+}
+
+.header__visor {
+  height: 38px;
+  background-color: #2B2B2B;
+}
+.header__visor:hover {
+  font-weight: bold;
+}
