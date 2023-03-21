@@ -1,0 +1,22 @@
+@font-face {font-family: "Mabry Pro"; src: url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.eot"); src: url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.woff") format("woff"), url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e4397c6cf12af9f58d46e124d18d6d93.svg#Mabry Pro") format("svg"); }
+
+$primary: #2B2B2B;
+$mabry_font: "Mabry Pro";
+
+
+.header {
+	height: 170px;
+	font-family: $mabry_font;
+}
+
+.header__visor {
+	height: 38px;
+	background-color:$primary;
+	&:hover {
+    font-weight: bold;
+  }
+}
+
+h1 {
+	font-family:"Mabry Pro";
+}
