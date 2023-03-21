@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width,
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,
 			initial-scale=1">
-		<link rel="stylesheet" href="./css/styles.css">
-	</head>
-	<body>
-		<header class="header">
-			<div class="header__visor"></div>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
 
+<body>
+	<header class="header">
+		<div class="header__visor"></div>
+		<div class="header__info"> <img src="./images/logo.png">
+			
+			<span class="header__info_contacts">Ежедневно: 09:00–19:00</span>
+			<span class="header__info_contacts">+7 (495) 225-23-35</span>
+			<span class="header__info_contacts">8 (800) 100-85-95</span>
+		</div>
 
-			<nav class="header__nav"><ul style="list-style-type:
-					none"><li><a href="#">Об институте</a></li></ul></nav>
-			<h1>Im here</h1>
-		</header>
-		<script src="./main.js"></script>
-	</body>
+		<nav class="header__nav">
+			<ul class="header__nav_elements">
+				<li><select class="header__nav_about" name="about">
+						<option class="nav_element_section_bold" value="Об институте">Об институте</option>
+						<option class="nav_element_section_ligth" value="О нас">О нас</option>
+						<option class="nav_element_section_ligth" value="История">История</option>
+						<option class="nav_element_section_ligth" value="Партнеры">Партнеры</option>
+						<option class="nav_element_section_ligth" value="Новости">Новости</option>
+					</select>
+				</li>
+				<li>Поступающему</li>
+				<li>Студенту</li>
+				<li>Высшее образование</li>
+				<li>Колледж</li>
+				<li>Каталог</li>
+			</ul>
+		</nav>
+		<h1>Im here</h1>
+	</header>
+	<script src="./main.js"></script>
+</body>
+
 </html>
