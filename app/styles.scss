@@ -18,5 +18,8 @@ $mabry_font: "Mabry Pro";
 }
 
 h1 {
-	font-family:"Mabry Pro";
+	display: flex; align-items: center;
+	justify-content: center;
+	font-family: $mabry_font, 'Times New Roman', Times, serif;
+	color: green;
 }
